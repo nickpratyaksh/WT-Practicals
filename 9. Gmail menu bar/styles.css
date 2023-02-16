@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-div{
+    background-color: #f6f8fc;
+    height: fit-content;
+    width: fit-content;
+    font-size: 20px;
+}
+
+.main-list{
+
+}
+
+.main-list li{
+    display: block;
+    padding: 15px 40px 15px 30px;
+}
+
+.main-list li:hover{
+    background-color: #eaebef;
+    border-radius: 10px;
+}
+
+.main-list ul{
+    padding: 0 0 0 20px;
+}

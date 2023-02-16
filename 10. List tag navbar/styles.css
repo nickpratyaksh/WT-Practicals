@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-div{
+    color: #e1e1e1;
+    background: #282a35;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-div ul{
+    display: flex;
+    align-items: center;
+}
+
+.main-div ul li{
+    display: inline;
+    padding: 8px 20px;
+}
+
+.main-div ul li:hover{
+    background-color: black;
+}
+
+.img{
+    filter: invert(100);
+    height: 25px;
+}

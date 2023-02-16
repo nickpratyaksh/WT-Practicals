@@ -13,32 +13,26 @@ body{
 .main-div{
     background-color: #f0f8ff;
     border: 2px solid #b2a4fce1;
-    width: fit-content;
+    width: 55%;
     border-radius: 15px;
+    text-align: center;
 }
 
 .title{
     background-color: #674ef9;
     color: white;
-    margin: 10px 40px;
-    padding: 5px 50px;
+    margin: 20px 40px;
+    padding: 5px 10px;
     border-radius: 10px;
 }
 
-.secondary-div{
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
-    width: 70%;
-    margin: 25px auto;
-}
-
 .item{
-    background-color: #e1e5fe;
-    border: 2px solid #7460f9dd;
+    color: white;
+    background-color: #0000ff;
+    /* border: 2px solid #7460f9dd; */
     border-radius: 8px;
-    padding: 5px 20px;
-    margin: 10px;
+    padding: 15px 10px;
+    margin: 10px 0;
     /* width: 55%; */
     /* text-align: center; */
 }

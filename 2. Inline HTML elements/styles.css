@@ -11,16 +11,16 @@ body{
 }
 
 .main-div{
-    background-color: rgb(230, 242, 255);
-    border: 2px solid rgba(89, 89, 255, 0.482);
+    background-color: #f0f8ff;
+    border: 2px solid #b2a4fce1;
     width: fit-content;
     border-radius: 15px;
 }
 
 .main-div h1{
-    background-color: rgb(85, 85, 255);
+    background-color: #674ef9;
     color: white;
-    margin: 10px 30px;
+    margin: 10px 40px;
     padding: 5px 50px;
     border-radius: 10px;
 }
@@ -34,11 +34,11 @@ body{
 }
 
 .secondary-div div{
-    background-color: rgb(208, 211, 255);
-    border: 2px solid rgba(115, 22, 255, 0.6);
+    background-color: #e1e5fe;
+    border: 2px solid #7460f9dd;
     border-radius: 8px;
-    padding: 5px 30px;
+    padding: 5px 10px;
     margin: 10px auto;
-    width: 50%;
+    width: 55%;
     text-align: center;
 }
