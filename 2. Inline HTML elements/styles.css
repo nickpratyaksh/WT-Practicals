@@ -4,17 +4,12 @@
     box-sizing: border-box;
 }
 
-body{
-    display: flex;
-    justify-content: center;
-    margin: 5%;
-}
-
 .main-div{
     background-color: #f0f8ff;
     border: 2px solid #b2a4fce1;
     width: fit-content;
     border-radius: 15px;
+    margin: 50px auto;
 }
 
 .main-div h1{

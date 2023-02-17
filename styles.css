@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-div{
+    width: fit-content;
+    margin: auto;
+    height: fit-content;
+}
+
+.main-div h1{
+    color: indianred;
+    background-color: antiquewhite;
+    font-size: 80px;
+    margin: auto;
+    border-radius: 30px;
+    padding: 0 20px;
+}
+
+.list{
+    width: 80%;
+    margin: auto;
+}
+
+.list a{
+    color: black;
+    background-color: aliceblue;
+    display: block;
+    text-decoration: none;
+    margin: 2px auto;
+    padding: 5px 10px;
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+}

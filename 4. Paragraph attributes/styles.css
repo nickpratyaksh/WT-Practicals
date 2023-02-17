@@ -4,18 +4,13 @@
     box-sizing: border-box;
 }
 
-body{
-    display: flex;
-    justify-content: center;
-    margin: 5%;
-}
-
 .main-div{
     background-color: #f0f8ff;
     border: 2px solid #b2a4fce1;
     width: 55%;
     border-radius: 15px;
     text-align: center;
+    margin: 50px auto;
 }
 
 .title{
