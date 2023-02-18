@@ -7,24 +7,32 @@
 .main-div{
     background-color: #f6f8fc;
     height: fit-content;
-    width: fit-content;
-    font-size: 20px;
+    width: 28vh;
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
-.main-list{
-
+.first-element{
+    background-color: #d3e3fd;
+    border-radius: 0 25px 25px 0;
+    font-weight: bold;
 }
 
 .main-list li{
     display: block;
-    padding: 15px 40px 15px 30px;
+    padding: 5px 10px 5px 30px;
+    width: 95%;
 }
 
 .main-list li:hover{
     background-color: #eaebef;
-    border-radius: 10px;
+    border-radius: 0 25px 25px 0;
 }
 
 .main-list ul{
     padding: 0 0 0 20px;
+}
+
+.secondary-list li{
+    padding-left: 60px;
 }

@@ -8,6 +8,15 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <h1>Image Mapping</h1>
+    Click on laptop to open all laptops images <br>
+    Click on mobile to open all mobile images <br>
+    Click on apple to open all fruit images <br>
+    <img src="image.png" alt="" usemap="#image-map">
+    <map name="image-map">
+        <area shape="circle" coords="394,159,29" href="fruits/index.html">
+        <area shape="poly" coords="78,27,295,14,315,164,388,217,152,249,95,190" href="laptop/index.html">
+        <area shape="poly" coords="43,220,86,213,125,250,75,260" href="mobile/index.html">
+    </map>
 </body>
 </html>

@@ -32,11 +32,13 @@
     /* text-align: center; */
 }
 
-.item p{
+.btn1{
     color: white;
     background: blue;
     border-radius: 10px;
     padding: 10px 20px;
     width: fit-content;
     margin: auto;
+    cursor: pointer;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
