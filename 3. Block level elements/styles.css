@@ -21,9 +21,9 @@
 }
 
 .secondary-div{
-    /* display: flex;
+    display: flex;
     flex-direction: column;
-    align-items: center; */
+    align-items: center;
     width: 70%;
     margin: 25px auto;
 }
@@ -34,6 +34,6 @@
     border-radius: 8px;
     padding: 5px 20px;
     margin: 10px;
-    /* width: 55%; */
-    /* text-align: center; */
+    width: 100%;
+    text-align: center;
 }

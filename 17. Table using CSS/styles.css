@@ -2,4 +2,59 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-div{
+    border: 1px solid #edeff1;
+    border-radius: 5px;
+    width: fit-content;
+    margin: auto;
+    padding: 20px;
+}
+
+.title{
+    margin: 20px;
+    text-align: center;
+}
+
+.header{
+    font-weight: bold;
+}
+
+.list{
+    /* background-color: blue; */
+    padding: 10px 0;
+}
+
+.list:hover{
+    background-color: rgb(222, 222, 222);
+    border-radius: 4px;
+}
+
+.list li{
+    display: inline-block;
+}
+
+.s-no{
+    width: 4em;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.first{
+    width: 10em;
+}
+
+.last{
+    width: 15em;
+}
+
+.handle{
+    width: 15em;
+}
+
+.grey-col{
+    background-color: #f2f2f2;
+    border: 1px solid #dfe3e77a;
 }
