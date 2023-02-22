@@ -2,30 +2,97 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-.main-div{
-    color: #e1e1e1;
-    background: #282a35;
-    font-weight: bold;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.main-div ul{
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-left: 28px;
+}
+
+
+.top-nav div{
     display: flex;
     align-items: center;
 }
 
-.main-div ul li{
-    display: inline;
-    padding: 8px 20px;
+.top-nav ul{
+    display: flex;
+    margin-left: 20px;
 }
 
-.main-div ul li:hover{
+.top-nav ul li{
+    list-style: none;
+    padding: 26px 15px;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.top-nav ul li:hover{
+    color: white;
+    background-color: #04aa6d;
+}
+
+.main-nav{
+    color: #e1e1e1;
+    background: #282a35;
+    font-weight: bold;
+}
+
+.main-nav ul{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+}
+
+.main-nav ul li{
+    display: inline;
+    padding: 10px 17px;
+}
+
+.main-nav ul li:hover{
     background-color: black;
 }
 
 .img{
     filter: invert(100);
-    height: 25px;
+    font-weight: bold
+}
+
+.buttons p{
+    margin-right: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.pro{
+    color: white;
+    background: #282a35;
+    padding: 10px 15px;
+    border-radius: 25px;
+}
+
+.cert{
+    /* color: white; */
+    background: #ffc0c7;
+    padding: 10px 15px;
+    border-radius: 25px;
+}
+
+.web{
+    /* color: white; */
+    background: #fff4a3;
+    padding: 10px 15px;
+    border-radius: 25px;
+}
+
+.login{
+    color: white;
+    background: #04aa6d;
+    padding: 10px 40px;
+    border-radius: 25px;
 }
