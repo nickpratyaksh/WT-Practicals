@@ -3,3 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.title{
+    background-color: lightcoral;
+    color: white;
+    margin: 20px 40px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.main-div{
+    margin: 15px auto;
+    width: 700px;
+    border: 2px solid rgb(184, 86, 86);
+    border-radius: 30px;
+    padding: 20px;
+    box-shadow: 5px 5px 5px lightcoral;
+    /* display: flex;
+    flex-flow: column; */
+    padding: 40px;
+}
+
+.list{
+    padding-left: 80px;
+}
+
+.img{
+    margin: 50px 20px 50px 80px;
+    border: 2px solid rgb(184, 86, 86);
+    border-radius: 10px;
+}

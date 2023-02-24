@@ -3,3 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.title{
+    background-color: lightcoral;
+    color: white;
+    margin: 20px 40px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.main-div{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+
+.main-div img{
+    width: 33.3%;
+    border: 2px solid lightcoral;
+    border-radius: 20px;
+}
