@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    margin: auto;
+    /* width: 60%; */
+    width: 400px;
+    /* display: flex; */
+    /* flex-flow: column; */
+}
+
+.form-container{
+    display: flex;
+    flex-flow: column;
+}
+
+.error{
+    /* display: none; */
+    color: rgb(195, 0, 0);
+}
+
+button{
+    color: rgb(212, 212, 212);
+    background: blue;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: fit-content;
+    margin:5px auto;
+    cursor: pointer;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.form-container input{
+    border: none;
+    border-radius: 5px;
+    border: 2px solid rgb(195, 0, 0);
+    padding: 5px 8px;
+    margin: 2px 0;
+}
+
+.form-container label{
+    margin-top: 10px;
+    font-weight: 600;
+}
