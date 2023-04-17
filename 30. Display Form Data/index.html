@@ -4,11 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Display Form Data Roll no. 6106</title>
     <script src="script.js"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <div class="container">
+        <h1>Registeration form</h1>
+        <form action="" class="form-container">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="Full Name">
+            <!-- <span class="error">Enter full name.</span> -->
+
+            <label for="email">Email address</label>
+            <input type="email" id="email" placeholder="Email address">
+            <!-- <span class="error">Enter your email address.</span> -->
+
+            <label for="phno">Phone(enter only 10 digit number)</label>
+            <input type="tel" id="phno" placeholder="Phone Number">
+            <!-- <span class="error">Enter a phone number.</span> -->
+
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Password">
+            <!-- <span class="error">Enter password.</span> -->
+
+            <label for="cpassword">Confirm Password</label>
+            <input type="password" id="cpassword" placeholder="Confirm Password">
+            <!-- <span class="error">Enter Password confirmation.</span> -->
+            
+            
+        </form>
+        <button onclick="display()">Show data</button>
+        <h1>Entered Data -</h1>
+        <div>
+            Name: <span id="oname"></span> <br>
+            Email: <span id="omail"></span> <br>
+            Phone: <span id="ophone"></span> <br>
+        </div>
+    </div>
 </body>
 </html>
